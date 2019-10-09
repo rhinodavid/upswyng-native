@@ -8,7 +8,8 @@ export async function get(_req, res) {
   } catch (e) {
     console.error(e);
     res.writeHead(500, {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
     });
 
     return res.end(
