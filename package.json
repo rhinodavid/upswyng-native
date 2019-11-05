@@ -45,7 +45,7 @@
     "hapi": "^18.1.0",
     "koa": "^2.8.1",
     "moment": "^2.24.0",
-    "mongoose": "^5.6.13",
+    "mongoose": "^5.7.5",
     "polka": "next",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
